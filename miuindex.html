@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="{CHARSET}">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="{MUI_JS_LOC}"></script>
+    <link href="{MUI_CSS_LOC}" rel="stylesheet"/>
+    <script type="text/javascript" charset="{CHARSET}">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<ul class="mui-table-view"> 
+        <li class="mui-table-view-cell mui-collapse">
+            <a class="mui-navigate-right" href="#">面板1</a>
+            <div class="mui-collapse-content">
+                <p>面板1子内容</p>
+            </div>
+        </li>
+    </ul>
+    <div id="sheet1" class="mui-popover mui-popover-bottom mui-popover-action ">
+    <!-- 可选择菜单 -->
+    <ul class="mui-table-view">
+      <li class="mui-table-view-cell">
+        <a href="#">菜单1</a>
+      </li>
+      <li class="mui-table-view-cell">
+        <a href="#">菜单2</a>
+      </li>
+    </ul>
+    <!-- 取消菜单 -->
+    <ul class="mui-table-view">
+      <li class="mui-table-view-cell">
+        <a href="#sheet1"><b>取消</b></a>
+      </li>
+    </ul>
+</div>
+<span class="mui-badge">1</span>
+<span class="mui-badge mui-badge-primary">12</span>
+<span class="mui-badge mui-badge-success">123</span>
+<span class="mui-badge mui-badge-warning">3</span>
+<span class="mui-badge mui-badge-danger">45</span>
+<span class="mui-badge mui-badge-purple">456</span>
+</body>
+</html>
